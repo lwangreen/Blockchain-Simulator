@@ -52,9 +52,7 @@ while(time<2000):
             if(not is_node_contain(node2_id)):
                 nodes_list.append(Nodes(node2_id))
 
-
-
-    time+=time_interval
+    time += time_interval
 
 for n in nodes_list:
     print(n.myid)
