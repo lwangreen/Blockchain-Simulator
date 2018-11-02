@@ -1,5 +1,6 @@
 import Blockchain
 from Blockchain import Blockchain
+import Threads
 
 
 class Nodes:
@@ -12,6 +13,7 @@ class Nodes:
         self.blockchain = Blockchain()
         self.account_balance = 0
         self.incomplete_transactions = []
+        self.mining_thread = Threads.NodeThread("self.blockchain.proof_of_work")
 
     def add_new_block(self):
         self.blockchain.new_block(self.incomplete_transactions)
