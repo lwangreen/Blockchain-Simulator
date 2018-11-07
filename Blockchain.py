@@ -1,37 +1,40 @@
 import hashlib
+import json
+
+
 
 class Blockchain:
-    def __init(self):
+    def __init__(self):
         self.chain = []
+        self.nonce = 0
+        self.incomplete_transactions = []
+        self.FLAG_MINING = True
+        self.create_unsolved_block([], None)
 
-    def new_block(self, proof, incomplete_transactions, previous_hash=None):
+    def reinitialise_for_next_block(self):
+        self.nonce = 0
+        self.unsolved_block = {}
+        self.create_unsolved_block([], self.hash(self.chain[-1]))
+
+    def create_unsolved_block(self, incomplete_transactions, previous_hash):
+        self.unsolved_block = {
+            'index': len(self.chain) + 1,
+            'transactions': incomplete_transactions,
+            'proof': self.nonce,
+            'previous_hash': previous_hash,
+        }
+
+    def new_block(self):
         """
         Create a new Block in the Blockchain
-        :param proof: <int> The proof given by the Proof of Work algorithm
         :param previous_hash: (Optional) <str> Hash of previous Block
         :return: <dict> New Block
         """
 
-        block = {
-            'index': len(self.chain) + 1,
-            'timestamp': time(),
-            'transactions': incomplete_transactions,
-            'proof': proof,
-            'previous_hash': previous_hash or self.hash(self.chain[-1]),
-        }
+        self.chain.append(self.unsolved_block)
+        self.reinitialise_for_next_block()
 
-        # Reset the current list of transactions
-        self.chain.append(block)
-        return block
-
-
-
-    @property
-    def last_block(self):
-        return self.chain[-1]
-
-    @staticmethod
-    def hash(block):
+    def hash(self, block):
         """
         Creates a SHA-256 hash of a Block
         :param block: <dict> Block
@@ -42,7 +45,23 @@ class Blockchain:
         block_string = json.dumps(block, sort_keys=True).encode()
         return hashlib.sha256(block_string).hexdigest()
 
-    def proof_of_work(self, last_proof):
+    def new_transaction(self, sender, recipient, amount, timestamp):
+        """
+        Creates a new transaction to go into the next mined Block
+        :param sender: <str> Address of the Sender
+        :param recipient: <str> Address of the Recipient
+        :param amount: <int> Amount
+        :return: <int> The index of the Block that will hold this transaction
+        """
+
+        self.incomplete_transactions.append({
+            'sender': sender,
+            'recipient': recipient,
+            'amount': amount,
+            'timestamp': timestamp,
+        })
+        self.unsolved_block['transactions'] = self.incomplete_transactions.copy()
+    def proof_of_work(self):
         """
         Simple Proof of Work Algorithm:
          - Find a number p' such that hash(pp') contains leading 4 zeroes, where p is the previous p'
@@ -51,14 +70,16 @@ class Blockchain:
         :return: <int>
         """
 
-        proof = 0
-        while self.valid_proof(last_proof, proof) is False:
-            proof += 1
+        while self.FLAG_MINING:
+            while self.valid_proof(self.unsolved_block) is False:
+                self.nonce += 1
+                self.unsolved_block['proof'] = self.nonce
+            if self.FLAG_MINING:
+                self.new_block()
+                self.reinitialise_for_next_block()
+                self.incomplete_transactions = []
 
-        return proof
-
-    @staticmethod
-    def valid_proof(last_proof, proof):
+    def valid_proof(self, block):
         """
         Validates the Proof: Does hash(last_proof, proof) contain 4 leading zeroes?
         :param last_proof: <int> Previous Proof
@@ -66,34 +87,34 @@ class Blockchain:
         :return: <bool> True if correct, False if not.
         """
 
-        guess = f'{last_proof}{proof}'.encode()
-        guess_hash = hashlib.sha256(guess).hexdigest()
-        return guess_hash[:4] == "0000"
+        return self.hash(block)[:4] == "0000"
 
-    def valid_chain(self, chain):
+    def valid_chain(self):
         """
         Determine if a given blockchain is valid
         :param chain: <list> A blockchain
         :return: <bool> True if valid, False if not
         """
 
-        last_block = chain[0]
-        current_index = 1
+        previous_block = self.chain[0]
+        current_index = 0
 
-        while current_index < len(chain):
-            block = chain[current_index]
-            print(f'{last_block}')
+        while current_index < len(self.chain):
+            block = self.chain[current_index]
+            print(f'{previous_block}')
             print(f'{block}')
             print("\n-----------\n")
             # Check that the hash of the block is correct
-            if block['previous_hash'] != self.hash(last_block):
-                return False
+
+            if current_index != 0:
+                if block['previous_hash'] != self.hash(previous_block):
+                    return False
 
             # Check that the Proof of Work is correct
-            if not self.valid_proof(last_block['proof'], block['proof']):
+            if not self.valid_proof(block):
                 return False
 
-            last_block = block
+            previous_block = block
             current_index += 1
 
         return True
