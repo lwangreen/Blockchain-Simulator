@@ -85,5 +85,7 @@ while current_time < 2000:
     current_time += time_interval
 
 for node in nodes_list:
+    node.blockchain.FLAG_MINING = False
+    node.mining_thread.join()
     print('ID:', node.id, node.blockchain.incomplete_transactions)
     print(node.blockchain.chain)
