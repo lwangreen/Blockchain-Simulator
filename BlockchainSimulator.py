@@ -1,7 +1,7 @@
 from Node import Node
-import time
 
 global current_time
+
 
 def is_node_contain(node_id):
     return any(node_id == node.id for node in nodes_list)
@@ -57,12 +57,12 @@ current_time = 0
 time_interval = 600
 
 
-while current_time < 2000:
+while current_time < 600:
     print("time", current_time)
     current_contacts = retrieve_records(contacts)
     current_transactions = retrieve_records(transactions)
-    print("contact", current_contacts)
-    print("transactions", current_transactions)
+    #print("contact", current_contacts)
+    #print("transactions", current_transactions)
     if current_transactions:
         for t in current_transactions:
             print(t)
@@ -73,14 +73,16 @@ while current_time < 2000:
 
     if current_contacts:
         for c in current_contacts:
+            print(c)
             create_node(c[0])
             create_node(c[1])
             node1 = get_node(c[0])
             node2 = get_node(c[1])
+
             node1.broadcast_transactions(node2)
             node2.broadcast_transactions(node1)
 
-    time.sleep(1)
+    #time.sleep(1)
 
     current_time += time_interval
 

@@ -1,6 +1,6 @@
 import hashlib
 import json
-
+from time import time
 
 
 class Blockchain:
@@ -8,7 +8,7 @@ class Blockchain:
         self.chain = []
         self.nonce = 0
         self.incomplete_transactions = []
-        self.FLAG_MINING = True
+        self.FLAG_MINING = False
         self.create_unsolved_block([], None)
 
     def reinitialise_for_next_block(self):
@@ -22,6 +22,7 @@ class Blockchain:
             'transactions': incomplete_transactions,
             'proof': self.nonce,
             'previous_hash': previous_hash,
+            'time' : time(),
         }
 
     def new_block(self):
@@ -59,8 +60,10 @@ class Blockchain:
             'recipient': recipient,
             'amount': amount,
             'timestamp': timestamp,
+            'time' : time(),
         })
         self.unsolved_block['transactions'] = self.incomplete_transactions.copy()
+
     def proof_of_work(self):
         """
         Simple Proof of Work Algorithm:
@@ -75,9 +78,12 @@ class Blockchain:
                 self.nonce += 1
                 self.unsolved_block['proof'] = self.nonce
             if self.FLAG_MINING:
+                #print("generate block", self.nonce)
                 self.new_block()
                 self.reinitialise_for_next_block()
                 self.incomplete_transactions = []
+            else:
+                self.nonce=0
 
     def valid_proof(self, block):
         """
