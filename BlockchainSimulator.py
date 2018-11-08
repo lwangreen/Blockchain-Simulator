@@ -1,4 +1,6 @@
+import time
 from Node import Node
+#from time import time
 
 global current_time
 
@@ -57,7 +59,7 @@ current_time = 0
 time_interval = 600
 
 
-while current_time < 600:
+while current_time < 2000:
     print("time", current_time)
     current_contacts = retrieve_records(contacts)
     current_transactions = retrieve_records(transactions)
@@ -69,7 +71,14 @@ while current_time < 600:
             create_node(t[0])
             create_node(t[1])
             node1 = get_node(t[0])
-            node1.blockchain.new_transaction(t[0], t[1], t[2], t[3])
+            transaction = {
+                         'sender': t[0],
+                         'recipient': t[1],
+                         'amount': t[2],
+                         'timestamp': t[3],
+                         #'time': time.time(),
+                     }
+            node1.blockchain.new_transaction(transaction)
 
     if current_contacts:
         for c in current_contacts:
@@ -78,16 +87,18 @@ while current_time < 600:
             create_node(c[1])
             node1 = get_node(c[0])
             node2 = get_node(c[1])
-
+            #print("before", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
             node1.broadcast_transactions(node2)
+            #print("round1", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
             node2.broadcast_transactions(node1)
-
-    #time.sleep(1)
+            #print("round2", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
+    time.sleep(1)
 
     current_time += time_interval
 
+print("end")
 for node in nodes_list:
     node.blockchain.FLAG_MINING = False
-    node.mining_thread.join()
     print('ID:', node.id, node.blockchain.incomplete_transactions)
     print(node.blockchain.chain)
+    print(node.blockchain.mining_thread, node.blockchain.mining_thread.isAlive())
