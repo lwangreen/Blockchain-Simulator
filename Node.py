@@ -1,5 +1,6 @@
 from Blockchain import Blockchain
 
+
 class Node:
     def __init__(self, id):
         """
@@ -11,9 +12,7 @@ class Node:
 
     def broadcast_transactions(self, other_node):
         if other_node.blockchain.incomplete_transactions:
-            # print("before", self.blockchain.incomplete_transactions, other_node.blockchain.incomplete_transactions)
             for transaction in other_node.blockchain.incomplete_transactions:
                 if transaction not in self.blockchain.incomplete_transactions:
                     self.blockchain.new_transaction(transaction)
-            # print("after", self.blockchain.incomplete_transactions, other_node.blockchain.incomplete_transactions)
-            # reinitialise proof-of-work thread
+

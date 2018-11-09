@@ -60,11 +60,9 @@ time_interval = 600
 
 
 while current_time < 2000:
-    #print("time", current_time)
     current_contacts = retrieve_records(contacts)
     current_transactions = retrieve_records(transactions)
-    #print("contact", current_contacts)
-    #print("transactions", current_transactions)
+
     if current_transactions:
         for t in current_transactions:
             #print(t)
@@ -89,11 +87,10 @@ while current_time < 2000:
             node2 = get_node(c[1])
             node1.blockchain.resolve_conflicts(node2.blockchain)
             node1.blockchain.resolve_conflicts(node1.blockchain)
-            #print("before", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
+
             node1.broadcast_transactions(node2)
-            #print("round1", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
             node2.broadcast_transactions(node1)
-            #print("round2", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
+
     time.sleep(1)
 
     current_time += time_interval

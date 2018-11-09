@@ -1,7 +1,6 @@
 import hashlib
 import json
 import threading
-from time import time
 
 
 class Blockchain:
@@ -41,10 +40,10 @@ class Blockchain:
 
         # clean transaction list after a block is generated.
         if not transaction:
-            #self.stop_mining_thread()
             self.FLAG_MINING = False
             self._incomplete_transactions = []
 
+        # add new transaction into incomplete_transaction and start PoW thread all over again
         else:
             self.stop_mining_thread()
             self._incomplete_transactions.append(transaction)
@@ -159,7 +158,6 @@ class Blockchain:
 
         # Check if the length is longer and the chain is valid
         if len(other_node.chain) > len(self.chain) and self.valid_chain(other_node.chain):
-            print("resolve conflict", self.id, other_node.id)
             self.chain = other_node.chain.copy()
             self.unsolved_block['index'] = len(self.chain) + 1
             self.unsolved_block['previous_hash'] = self.hash(self.chain[-1])
