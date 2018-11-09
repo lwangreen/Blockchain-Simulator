@@ -120,18 +120,18 @@ class Blockchain:
 
         return self.hash(block)[:4] == "0000"
 
-    def valid_chain(self):
+    def valid_chain(self, chain):
         """
         Determine if a given blockchain is valid
         :param chain: <list> A blockchain
         :return: <bool> True if valid, False if not
         """
 
-        previous_block = self.chain[0]
+        previous_block = chain[0]
         current_index = 0
 
         while current_index < len(self.chain):
-            block = self.chain[current_index]
+            block = chain[current_index]
             print(f'{previous_block}')
             print(f'{block}')
             print("\n-----------\n")
@@ -159,7 +159,16 @@ class Blockchain:
 
         # Check if the length is longer and the chain is valid
         if len(other_node.chain) > len(self.chain) and self.valid_chain(other_node.chain):
+            print("resolve conflict", self.id, other_node.id)
             self.chain = other_node.chain.copy()
-            return True
+            self.unsolved_block['index'] = len(self.chain) + 1
+            self.unsolved_block['previous_hash'] = self.hash(self.chain[-1])
+            self.remove_duplicate_transactions()
 
-        return False
+    def remove_duplicate_transactions(self):
+        for transaction in self.incomplete_transactions:
+            for block in self.chain:
+                for t in block['transactions']:
+                    if transaction == t:
+                        self.incomplete_transactions.pop(self.incomplete_transactions.index(transaction))
+

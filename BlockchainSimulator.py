@@ -87,6 +87,8 @@ while current_time < 2000:
             create_node(c[1])
             node1 = get_node(c[0])
             node2 = get_node(c[1])
+            node1.blockchain.resolve_conflicts(node2.blockchain)
+            node1.blockchain.resolve_conflicts(node1.blockchain)
             #print("before", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
             node1.broadcast_transactions(node2)
             #print("round1", node1.blockchain.incomplete_transactions, node2.blockchain.incomplete_transactions)
