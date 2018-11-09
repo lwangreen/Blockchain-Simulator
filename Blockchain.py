@@ -15,18 +15,14 @@ class Blockchain:
         self.mining_thread = None
 
     def start_mining_thread(self):
-
         self.FLAG_MINING = True
         self.mining_thread = threading.Thread(target=self.proof_of_work)
         self.mining_thread.start()
-        #print("start thread", self.mining_thread, self.id)
 
     def stop_mining_thread(self):
-        #print("stop thread", self.mining_thread, self.id)
         self.FLAG_MINING = False
-        if self.mining_thread and self.mining_thread.isAlive():
+        if self.mining_thread:
             self.mining_thread.join()
-
 
     @property
     def incomplete_transactions(self):
@@ -45,15 +41,16 @@ class Blockchain:
 
         # clean transaction list after a block is generated.
         if not transaction:
+            #self.stop_mining_thread()
+            self.FLAG_MINING = False
             self._incomplete_transactions = []
-            self.stop_mining_thread()
+
         else:
             self.stop_mining_thread()
             self._incomplete_transactions.append(transaction)
             self.nonce = 0
+            self.unsolved_block['transactions'] = self._incomplete_transactions.copy()
             self.start_mining_thread()
-
-        self.unsolved_block['transactions'] = self._incomplete_transactions.copy()
 
     def reinitialise_for_next_block(self):
         self.nonce = 0
@@ -90,24 +87,6 @@ class Blockchain:
         block_string = json.dumps(block, sort_keys=True).encode()
         return hashlib.sha256(block_string).hexdigest()
 
-    # def new_transaction(self, sender, recipient, amount, timestamp):
-    #     """
-    #     Creates a new transaction to go into the next mined Block
-    #     :param sender: <str> Address of the Sender
-    #     :param recipient: <str> Address of the Recipient
-    #     :param amount: <int> Amount
-    #     :return: <int> The index of the Block that will hold this transaction
-    #     """
-    #     self.incomplete_transactions = {
-    #         'sender': sender,
-    #         'recipient': recipient,
-    #         'amount': amount,
-    #         'timestamp': timestamp,
-    #         'time' : time(),
-    #     }
-    #     print(self.incomplete_transactions)
-    #     self.unsolved_block['transactions'] = self.incomplete_transactions.copy()
-
     def new_transaction(self, transaction):
         """
 
@@ -124,17 +103,12 @@ class Blockchain:
         :param last_proof: <int>
         :return: <int>
         """
-
-        while self.FLAG_MINING:
-            while self.valid_proof(self.unsolved_block) is False:
-                self.nonce += 1
-                self.unsolved_block['proof'] = self.nonce
-            if self.FLAG_MINING:
-                break
-        self.new_block()
-        self.reinitialise_for_next_block()
-
-
+        while self.FLAG_MINING and self.valid_proof(self.unsolved_block) is False:
+            self.nonce += 1
+            self.unsolved_block['proof'] = self.nonce
+        if self.FLAG_MINING:
+            self.new_block()
+            self.reinitialise_for_next_block()
 
     def valid_proof(self, block):
         """

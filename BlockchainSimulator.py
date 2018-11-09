@@ -60,14 +60,14 @@ time_interval = 600
 
 
 while current_time < 2000:
-    print("time", current_time)
+    #print("time", current_time)
     current_contacts = retrieve_records(contacts)
     current_transactions = retrieve_records(transactions)
     #print("contact", current_contacts)
     #print("transactions", current_transactions)
     if current_transactions:
         for t in current_transactions:
-            print(t)
+            #print(t)
             create_node(t[0])
             create_node(t[1])
             node1 = get_node(t[0])
@@ -82,7 +82,7 @@ while current_time < 2000:
 
     if current_contacts:
         for c in current_contacts:
-            print(c)
+            #print(c)
             create_node(c[0])
             create_node(c[1])
             node1 = get_node(c[0])
