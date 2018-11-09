@@ -65,7 +65,6 @@ while current_time < 2000:
 
     if current_transactions:
         for t in current_transactions:
-            #print(t)
             create_node(t[0])
             create_node(t[1])
             node1 = get_node(t[0])
@@ -80,7 +79,6 @@ while current_time < 2000:
 
     if current_contacts:
         for c in current_contacts:
-            #print(c)
             create_node(c[0])
             create_node(c[1])
             node1 = get_node(c[0])
