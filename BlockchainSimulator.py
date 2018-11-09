@@ -86,7 +86,7 @@ while current_time < 2000:
             node1 = get_node(c[0])
             node2 = get_node(c[1])
             node1.blockchain.resolve_conflicts(node2.blockchain)
-            node1.blockchain.resolve_conflicts(node1.blockchain)
+            node2.blockchain.resolve_conflicts(node1.blockchain)
 
             node1.broadcast_transactions(node2)
             node2.broadcast_transactions(node1)
