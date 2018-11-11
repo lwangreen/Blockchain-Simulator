@@ -44,7 +44,7 @@ contacts = [[1, 2, 200],
             [1, 3, 1500]
             ]
 
-# node1, node2, transaction amount, time
+# payer, payee, transaction amount, time
 transactions = [[1, 2, 500, 172],
             [3, 2, 700, 200],
             [1, 3, 200, 650],
