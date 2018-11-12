@@ -1,0 +1,96 @@
+Node ID:1
+Incomplete transaction:
+
+Blockchain:
+index: 1
+{'sender': 1, 'recipient': 2, 'amount': 500, 'timestamp': 172}
+proof: 578
+previous_hash: None
+
+index: 2
+{'sender': 3, 'recipient': 2, 'amount': 700, 'timestamp': 200}
+proof: 2409
+previous_hash: 0006ee5d2dbda4b38529f370f476cab96bbdb0dc3dd3cc66e67516a264181a94
+
+index: 3
+{'sender': 2, 'recipient': 4, 'amount': 130, 'timestamp': 780}
+proof: 4597
+previous_hash: 000c709f936200d4011534b5de5c631e97eee2246bb00e7892add05ecde99125
+
+index: 4
+{'sender': 3, 'recipient': 1, 'amount': 100, 'timestamp': 1200}
+proof: 886
+previous_hash: 000d1390fafda20f1fb1030becbfc455fee1158463bab71109d293f4292c0571
+
+
+Node ID:2
+Incomplete transaction:
+
+Blockchain:
+index: 1
+{'sender': 1, 'recipient': 2, 'amount': 500, 'timestamp': 172}
+proof: 578
+previous_hash: None
+
+index: 2
+{'sender': 3, 'recipient': 2, 'amount': 700, 'timestamp': 200}
+proof: 184
+previous_hash: 0006ee5d2dbda4b38529f370f476cab96bbdb0dc3dd3cc66e67516a264181a94
+
+index: 3
+{'sender': 2, 'recipient': 4, 'amount': 130, 'timestamp': 780}
+{'sender': 4, 'recipient': 1, 'amount': 50, 'timestamp': 1000}
+proof: 189
+previous_hash: 000faccd51fe215d0370fb201eae8eb4ba501e5bbc0117de277bc1359544951d
+
+
+Node ID:3
+Incomplete transaction:
+
+Blockchain:
+index: 1
+{'sender': 1, 'recipient': 2, 'amount': 500, 'timestamp': 172}
+proof: 578
+previous_hash: None
+
+index: 2
+{'sender': 3, 'recipient': 2, 'amount': 700, 'timestamp': 200}
+proof: 2409
+previous_hash: 0006ee5d2dbda4b38529f370f476cab96bbdb0dc3dd3cc66e67516a264181a94
+
+index: 3
+{'sender': 2, 'recipient': 4, 'amount': 130, 'timestamp': 780}
+proof: 4597
+previous_hash: 000c709f936200d4011534b5de5c631e97eee2246bb00e7892add05ecde99125
+
+index: 4
+{'sender': 3, 'recipient': 1, 'amount': 100, 'timestamp': 1200}
+proof: 886
+previous_hash: 000d1390fafda20f1fb1030becbfc455fee1158463bab71109d293f4292c0571
+
+
+Node ID:4
+Incomplete transaction:
+
+Blockchain:
+index: 1
+{'sender': 1, 'recipient': 2, 'amount': 500, 'timestamp': 172}
+proof: 578
+previous_hash: None
+
+index: 2
+{'sender': 3, 'recipient': 2, 'amount': 700, 'timestamp': 200}
+proof: 184
+previous_hash: 0006ee5d2dbda4b38529f370f476cab96bbdb0dc3dd3cc66e67516a264181a94
+
+index: 3
+{'sender': 4, 'recipient': 1, 'amount': 50, 'timestamp': 1000}
+proof: 6605
+previous_hash: 000faccd51fe215d0370fb201eae8eb4ba501e5bbc0117de277bc1359544951d
+
+index: 4
+{'sender': 4, 'recipient': 3, 'amount': 600, 'timestamp': 1500}
+proof: 3111
+previous_hash: 0009ca35ed1f3f1fb4ccc3e313e1c9fadd361463663b2ea00a8e5c12d3c951e2
+
+
