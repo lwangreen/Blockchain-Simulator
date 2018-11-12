@@ -16,7 +16,6 @@ def get_node(node_id, nodes_list):
 
 
 def create_node(node_id, nodes_list):
-
     if not is_node_contain(node_id, nodes_list):
         nodes_list.append(Node(node_id))
     return nodes_list
@@ -128,5 +127,7 @@ def main():
     print("end")
 
     write_into_file("testresult.txt", nodes_list)
+
+
 if __name__ == "__main__":
     main()
