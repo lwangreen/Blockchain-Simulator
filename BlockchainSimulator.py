@@ -104,7 +104,6 @@ def main():
                     'recipient': t[1],
                     'amount': t[2],
                     'timestamp': t[3],
-                    #'time': time.time(),
                 }
                 node1.blockchain.new_transaction(transaction)
 
