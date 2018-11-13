@@ -2,8 +2,6 @@ import time
 from Node import Node
 import os
 
-global current_time
-
 
 def is_node_contain(node_id, nodes_list):
     return any(node_id == node.id for node in nodes_list)
@@ -24,7 +22,7 @@ def create_node(node_id, nodes_list):
 def retrieve_records(records, current_time, time_interval):
     c_list = []
 
-    while(records):
+    while records:
         if records[0][-1] >= current_time+time_interval:
             break
         c_list.append(records.pop(0))
