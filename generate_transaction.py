@@ -28,7 +28,6 @@ def choose_nodes(nodes_list):
 
 
 def get_end_time(cur):
-    global end
     cur.execute("select end_time from contactsrep2 order by end_time desc limit 1;")
     d = cur.fetchall()
     return d[0][0]
