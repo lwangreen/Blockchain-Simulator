@@ -129,8 +129,8 @@ def main():
 
     cnx = mysql.connector.connect(user='root', database='cambridge')
     cur = cnx.cursor(buffered=True)
-    #end_time = 10000
-    end_time = get_end_time(cur)
+    end_time = 1000
+    #end_time = get_end_time(cur)
     #print("endtime", end_time)
     f = open(os.getcwd()+"\\Created_data_trace\\transaction.txt", 'r')
 
@@ -188,6 +188,6 @@ def main():
     #nodes_list.sort()
     write_into_file("BlockchainResult.txt", nodes_list)
 
-
+    os.system(os.getcwd()+"\\gitpush.bat")
 if __name__ == "__main__":
     main()
