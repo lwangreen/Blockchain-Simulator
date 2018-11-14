@@ -185,7 +185,6 @@ def main():
         print(current_time, len(nodes_list))
 
     print("end")
-    #nodes_list.sort()
     write_into_file("BlockchainResult.txt", nodes_list)
 
     os.system(os.getcwd()+"\\gitpush.bat")
