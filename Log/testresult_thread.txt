@@ -29,33 +29,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -71,33 +71,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -113,33 +113,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -155,32 +155,32 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
 block generator: 13
 
 -------------------------------------------------------------------------------------
@@ -197,33 +197,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 814
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 8
+proof: 3632
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 6
 
 -------------------------------------------------------------------------------------
 
@@ -239,33 +239,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
-block generator: 13
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -281,33 +281,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 39659
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 15
 
 -------------------------------------------------------------------------------------
 
@@ -324,32 +324,32 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
 block generator: 13
 
 -------------------------------------------------------------------------------------
@@ -366,33 +366,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 13
 
 -------------------------------------------------------------------------------------
 
@@ -408,33 +408,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 13
 
 -------------------------------------------------------------------------------------
 
@@ -450,33 +450,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -492,33 +492,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -534,33 +534,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3632
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 6
 
 -------------------------------------------------------------------------------------
 
@@ -576,32 +576,32 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
 block generator: 13
 
 -------------------------------------------------------------------------------------
@@ -618,33 +618,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
-block generator: 13
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -660,32 +660,32 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
 block generator: 13
 
 -------------------------------------------------------------------------------------
@@ -702,33 +702,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -744,32 +744,32 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
 block generator: 13
 
 -------------------------------------------------------------------------------------
@@ -794,16 +794,26 @@ block generator: 160
 
 Node ID:116
 -------------Incomplete transaction----------------:
-{'sender': 116, 'recipient': 180, 'amount': 2375, 'timestamp': 6153}
 
 -------------Blockchain:---------------------------:
+index: 1
+{'sender': 116, 'recipient': 180, 'amount': 2375, 'timestamp': 6153}
+proof: 86974
+previous_hash: None
+block generator: 116
+
 -------------------------------------------------------------------------------------
 
 Node ID:210
 -------------Incomplete transaction----------------:
-{'sender': 210, 'recipient': 190, 'amount': 2358, 'timestamp': 977}
 
 -------------Blockchain:---------------------------:
+index: 1
+{'sender': 210, 'recipient': 190, 'amount': 2358, 'timestamp': 977}
+proof: 306239
+previous_hash: None
+block generator: 210
+
 -------------------------------------------------------------------------------------
 
 Node ID:190
@@ -824,33 +834,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 13
 
 -------------------------------------------------------------------------------------
 
@@ -944,41 +954,46 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
-block generator: 13
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
 Node ID:33
 -------------Incomplete transaction----------------:
-{'sender': 33, 'recipient': 117, 'amount': 6276, 'timestamp': 2121}
 
 -------------Blockchain:---------------------------:
+index: 1
+{'sender': 33, 'recipient': 117, 'amount': 6276, 'timestamp': 2121}
+proof: 201559
+previous_hash: None
+block generator: 33
+
 -------------------------------------------------------------------------------------
 
 Node ID:117
@@ -1041,27 +1056,27 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 -------------------------------------------------------------------------------------
 
@@ -1077,33 +1092,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3632
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 6
 
 -------------------------------------------------------------------------------------
 
@@ -1138,39 +1153,38 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 2972
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 3
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 19866
-previous_hash: 0000c4e71bcb98c1fe36f91de5e1212ed8ab575cbd364dee69b1692d1d76d75e
-block generator: 12
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 6107
-previous_hash: 0000b98537fc9d08796619a1444529eddf0d80f882c3e338ea315144df5a0bb5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
 block generator: 13
 
 -------------------------------------------------------------------------------------
 
 Node ID:75
 -------------Incomplete transaction----------------:
-{'sender': 75, 'recipient': 185, 'amount': 7604, 'timestamp': 7946}
 
 -------------Blockchain:---------------------------:
 index: 1
@@ -1181,9 +1195,15 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
+
+index: 3
+{'sender': 75, 'recipient': 185, 'amount': 7604, 'timestamp': 7946}
+proof: 5010
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 75
 
 -------------------------------------------------------------------------------------
 
@@ -1199,9 +1219,9 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 -------------------------------------------------------------------------------------
 
@@ -1217,33 +1237,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 43887
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 13
 
 -------------------------------------------------------------------------------------
 
@@ -1277,33 +1297,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -1319,33 +1339,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 776
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 135
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -1421,33 +1441,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -1465,9 +1485,14 @@ Node ID:0
 
 Node ID:144
 -------------Incomplete transaction----------------:
-{'sender': 144, 'recipient': 129, 'amount': 5660, 'timestamp': 7025}
 
 -------------Blockchain:---------------------------:
+index: 1
+{'sender': 144, 'recipient': 129, 'amount': 5660, 'timestamp': 7025}
+proof: 327970
+previous_hash: None
+block generator: 144
+
 -------------------------------------------------------------------------------------
 
 Node ID:129
@@ -1488,33 +1513,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -1530,33 +1555,33 @@ block generator: 6
 
 index: 2
 {'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
-proof: 845
+proof: 8386
 previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
-block generator: 12
+block generator: 6
 
 index: 3
-{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
-proof: 3111
-previous_hash: 0000dfb15cdfed9be6518e9cdb0bf87c86b671cd956f6f14caf24b21f1388958
-block generator: 3
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 912
+previous_hash: 00000cca87b1f447cbd33f3443c555de9d81f2005f2f421d393ea17f2ce52d52
+block generator: 9
 
 index: 4
-{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
-proof: 15196
-previous_hash: 0000b97605354bee2bbf4e040e4d1039e5437309d15b42588b4e1bfda1d492ef
-block generator: 9
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 5414
+previous_hash: 000087a0736b3bda8d2fb43cde9b69986201746045e9fcf96a6423a16bde7d4c
+block generator: 1
 
 index: 5
 {'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
-proof: 16132
-previous_hash: 00008facb92ffb222af9da8128b4666f8169834d046d674b4d96adf27845f6f7
-block generator: 5
+proof: 13180
+previous_hash: 00003e629601d97fac065d21f43a3a13d39ccb8809895568c6cf30f0a365c587
+block generator: 1
 
 index: 6
 {'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
-proof: 5710
-previous_hash: 0000beb90a812d5aa96c0438680d62044b254806fb1563af1f80c0d27ca6be1e
-block generator: 5
+proof: 3001
+previous_hash: 0000e8ef316efb06083fb14b4b4a78902fcc0588c98ca581bcc24c1a133a31b0
+block generator: 11
 
 -------------------------------------------------------------------------------------
 
@@ -1568,9 +1593,14 @@ Node ID:185
 
 Node ID:137
 -------------Incomplete transaction----------------:
-{'sender': 137, 'recipient': 88, 'amount': 4940, 'timestamp': 8298}
 
 -------------Blockchain:---------------------------:
+index: 1
+{'sender': 137, 'recipient': 88, 'amount': 4940, 'timestamp': 8298}
+proof: 26926
+previous_hash: None
+block generator: 137
+
 -------------------------------------------------------------------------------------
 
 Node ID:88
@@ -1581,9 +1611,14 @@ Node ID:88
 
 Node ID:138
 -------------Incomplete transaction----------------:
-{'sender': 138, 'recipient': 48, 'amount': 7298, 'timestamp': 8314}
 
 -------------Blockchain:---------------------------:
+index: 1
+{'sender': 138, 'recipient': 48, 'amount': 7298, 'timestamp': 8314}
+proof: 26326
+previous_hash: None
+block generator: 138
+
 -------------------------------------------------------------------------------------
 
 Node ID:48

@@ -58,12 +58,13 @@ class Blockchain:
         self.create_unsolved_block(self.hash(self.chain[-1]))
 
     def create_unsolved_block(self, previous_hash):
+        self.nonce = 0
         self.unsolved_block = {
             'index': len(self.chain) + 1,
-            'transactions': [],
+            'transactions': self.incomplete_transactions,
             'proof': self.nonce,
             'previous_hash': previous_hash,
-            #'time': time(),
+            'block generator': self.id,
         }
 
     def new_block(self):
@@ -131,10 +132,6 @@ class Blockchain:
 
         while current_index < len(self.chain):
             block = chain[current_index]
-            print(f'{previous_block}')
-            print(f'{block}')
-            print("\n-----------\n")
-            # Check that the hash of the block is correct
 
             if current_index != 0:
                 if block['previous_hash'] != self.hash(previous_block):
@@ -158,15 +155,27 @@ class Blockchain:
 
         # Check if the length is longer and the chain is valid
         if len(other_node.chain) > len(self.chain) and self.valid_chain(other_node.chain):
+            self.stop_mining_thread()
             self.chain = other_node.chain.copy()
-            self.unsolved_block['index'] = len(self.chain) + 1
-            self.unsolved_block['previous_hash'] = self.hash(self.chain[-1])
-            self.remove_duplicate_transactions()
+            self.remove_approved_incomplete_transactions()
+            self.create_unsolved_block(self.hash(self.chain[-1]))
+            if self.incomplete_transactions:
+                self.start_mining_thread()
 
-    def remove_duplicate_transactions(self):
+    def is_contain_duplicate_transaction_in_chain(self, transaction):
+        for block in self.chain:
+            if transaction in block['transactions']:
+                return True
+        return False
+
+    def remove_approved_incomplete_transactions(self):
         for transaction in self.incomplete_transactions:
-            for block in self.chain:
-                for t in block['transactions']:
-                    if transaction == t:
-                        self.incomplete_transactions.pop(self.incomplete_transactions.index(transaction))
+            if self.is_contain_duplicate_transaction_in_chain(transaction):
+                self.incomplete_transactions.remove(transaction)
 
+    def broadcast_transactions(self, other_node):
+        if other_node.incomplete_transactions:
+            for transaction in other_node.incomplete_transactions:
+                if transaction not in self.incomplete_transactions and \
+                        not self.is_contain_duplicate_transaction_in_chain(transaction):
+                    self.new_transaction(transaction)

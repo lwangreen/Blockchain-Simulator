@@ -1,0 +1,152 @@
+proof: 74607
+block generator: 98
+Node ID:7
+Node ID:89
+Node ID:204
+Node ID:98
+{'sender': 138, 'recipient': 48, 'amount': 7298, 'timestamp': 8314}
+Node ID:48
+index: 1
+{'sender': 210, 'recipient': 190, 'amount': 2358, 'timestamp': 977}
+Node ID:74
+Node ID:96
+Node ID:17
+Node ID:99
+Node ID:3
+Node ID:13
+proof: 63546
+block generator: 46
+proof: 62650
+block generator: 6
+Node ID:144
+{'sender': 160, 'recipient': 116, 'amount': 4662, 'timestamp': 643}
+Node ID:22
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+block generator: 207
+Node ID:15
+Node ID:167
+Node ID:0
+index: 6
+index: 3
+proof: 13065
+Node ID:184
+Node ID:10
+Node ID:186
+proof: 80184
+Node ID:19
+Node ID:1
+Node ID:8
+{'sender': 186, 'recipient': 184, 'amount': 5488, 'timestamp': 8804}
+Node ID:4
+previous_hash: 000000a60f2015feb59eed54059e67dfe0eb68a84b6302b9b22008ebefa82d32
+Node ID:137
+{'sender': 176, 'recipient': 121, 'amount': 1619, 'timestamp': 244}
+index: 2
+Node ID:5
+{'sender': 98, 'recipient': 64, 'amount': 3354, 'timestamp': 1880}
+Node ID:180
+block generator: 56
+{'sender': 136, 'recipient': 158, 'amount': 2555, 'timestamp': 5990}
+Node ID:2
+{'sender': 85, 'recipient': 22, 'amount': 4422, 'timestamp': 2121}
+{'sender': 201, 'recipient': 209, 'amount': 4698, 'timestamp': 9193}
+Node ID:116
+{'sender': 55, 'recipient': 19, 'amount': 1701, 'timestamp': 4675}
+Node ID:61
+-------------Blockchain:---------------------------:
+proof: 46286
+{'sender': 112, 'recipient': 179, 'amount': 4132, 'timestamp': 2042}
+Node ID:50
+Node ID:185
+Node ID:190
+{'sender': 11, 'recipient': 146, 'amount': 7357, 'timestamp': 2607}
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+{'sender': 96, 'recipient': 11, 'amount': 6932, 'timestamp': 1880}
+{'sender': 46, 'recipient': 61, 'amount': 2738, 'timestamp': 2995}
+Node ID:56
+previous_hash: 00008808660b5fb5a6d3ab75d5c4ebe8afe44162a0c29d462894b135c04adb47
+Node ID:146
+Node ID:135
+block generator: 86
+block generator: 136
+Node ID:201
+block generator: 186
+Node ID:16
+proof: 8543
+{'sender': 144, 'recipient': 129, 'amount': 5660, 'timestamp': 7025}
+{'sender': 207, 'recipient': 52, 'amount': 9773, 'timestamp': 1339}
+block generator: 160
+{'sender': 56, 'recipient': 71, 'amount': 8423, 'timestamp': 5334}
+Node ID:130
+{'sender': 75, 'recipient': 185, 'amount': 7604, 'timestamp': 7946}
+{'sender': 186, 'recipient': 179, 'amount': 8661, 'timestamp': 3131}
+Node ID:33
+Node ID:148
+Node ID:20
+Node ID:210
+{'sender': 116, 'recipient': 180, 'amount': 2375, 'timestamp': 6153}
+proof: 41888
+block generator: 13
+block generator: 194
+Node ID:209
+-------------------------------------------------------------------------------------
+{'sender': 86, 'recipient': 167, 'amount': 9440, 'timestamp': 2607}
+proof: 52027
+Node ID:85
+proof: 13342
+{'sender': 160, 'recipient': 0, 'amount': 7711, 'timestamp': 6466}
+Node ID:121
+{'sender': 137, 'recipient': 88, 'amount': 4940, 'timestamp': 8298}
+Node ID:176
+Node ID:11
+Node ID:194
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+block generator: 176
+Node ID:46
+proof: 27189
+block generator: 96
+Node ID:136
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+Node ID:76
+previous_hash: None
+-------------Incomplete transaction----------------:
+{'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
+index: 4
+Node ID:88
+proof: 41513
+Node ID:129
+Node ID:52
+index: 5
+Node ID:158
+Node ID:71
+Node ID:206
+{'sender': 1, 'recipient': 122, 'amount': 6017, 'timestamp': 9566}
+{'sender': 33, 'recipient': 117, 'amount': 6276, 'timestamp': 2121}
+block generator: 9
+Node ID:86
+proof: 27936
+block generator: 55
+Node ID:122
+Node ID:6
+proof: 63967
+Node ID:14
+Node ID:117
+Node ID:160
+Node ID:12
+Node ID:9
+Node ID:18
+Node ID:64
+block generator: 85
+Node ID:55
+Node ID:44
+Node ID:75
+Node ID:93
+block generator: 112
+Node ID:179
+{'sender': 194, 'recipient': 46, 'amount': 6240, 'timestamp': 5337}
+Node ID:112
+proof: 142569
+Node ID:21
+proof: 2837
+Node ID:138
+Node ID:207
