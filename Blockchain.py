@@ -162,20 +162,15 @@ class Blockchain:
             if self.incomplete_transactions:
                 self.start_mining_thread()
 
-    def is_contain_duplicate_transaction_in_chain(self, transaction):
-        for block in self.chain:
-            if transaction in block['transactions']:
-                return True
-        return False
-
     def remove_approved_incomplete_transactions(self):
-        for transaction in self.incomplete_transactions:
-            if self.is_contain_duplicate_transaction_in_chain(transaction):
-                self.incomplete_transactions.remove(transaction)
+        for block in self.chain:
+            for transaction in self.incomplete_transactions:
+                if transaction in block['transactions']:
+                    self.incomplete_transactions.remove(transaction)
 
     def broadcast_transactions(self, other_node):
         if other_node.incomplete_transactions:
-            for transaction in other_node.incomplete_transactions:
-                if transaction not in self.incomplete_transactions and \
-                        not self.is_contain_duplicate_transaction_in_chain(transaction):
-                    self.new_transaction(transaction)
+            for block in self.chain:
+                for transaction in other_node.incomplete_transactions:
+                    if transaction not in self.incomplete_transactions and transaction not in block['transactions']:
+                        self.new_transaction(transaction)

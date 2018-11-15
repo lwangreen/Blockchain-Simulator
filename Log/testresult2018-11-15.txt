@@ -1,0 +1,1123 @@
+Node ID:176
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 176, 'recipient': 121, 'amount': 1619, 'timestamp': 244}
+proof: 41513
+previous_hash: None
+block generator: 176
+
+-------------------------------------------------------------------------------------
+
+Node ID:121
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:1
+-------------Incomplete transaction----------------:
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 1, 'recipient': 122, 'amount': 6017, 'timestamp': 9566}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 9025
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 19
+
+-------------------------------------------------------------------------------------
+
+Node ID:3
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 5845
+previous_hash: 0000409ef4b7af3e6907ad43939acb1ca804aa7bdfc98ed6dcf65e160027f0dd
+block generator: 5
+
+-------------------------------------------------------------------------------------
+
+Node ID:9
+-------------Incomplete transaction----------------:
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+-------------------------------------------------------------------------------------
+
+Node ID:10
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 5845
+previous_hash: 0000409ef4b7af3e6907ad43939acb1ca804aa7bdfc98ed6dcf65e160027f0dd
+block generator: 5
+
+-------------------------------------------------------------------------------------
+
+Node ID:8
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 5845
+previous_hash: 0000409ef4b7af3e6907ad43939acb1ca804aa7bdfc98ed6dcf65e160027f0dd
+block generator: 5
+
+-------------------------------------------------------------------------------------
+
+Node ID:7
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 5845
+previous_hash: 0000409ef4b7af3e6907ad43939acb1ca804aa7bdfc98ed6dcf65e160027f0dd
+block generator: 5
+
+-------------------------------------------------------------------------------------
+
+Node ID:15
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 15, 'recipient': 12, 'amount': 227, 'timestamp': 6466}
+proof: 62021
+previous_hash: None
+block generator: 15
+
+-------------------------------------------------------------------------------------
+
+Node ID:12
+-------------Incomplete transaction----------------:
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 1, 'recipient': 122, 'amount': 6017, 'timestamp': 9566}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 9025
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 19
+
+-------------------------------------------------------------------------------------
+
+Node ID:14
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 14, 'recipient': 21, 'amount': 1015, 'timestamp': 5820}
+proof: 30117
+previous_hash: None
+block generator: 14
+
+-------------------------------------------------------------------------------------
+
+Node ID:5
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 5845
+previous_hash: 0000409ef4b7af3e6907ad43939acb1ca804aa7bdfc98ed6dcf65e160027f0dd
+block generator: 5
+
+-------------------------------------------------------------------------------------
+
+Node ID:11
+-------------Incomplete transaction----------------:
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+-------------------------------------------------------------------------------------
+
+Node ID:4
+-------------Incomplete transaction----------------:
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 19153
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 7
+
+index: 3
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 16600
+previous_hash: 000000725a6dc2cddcb5276edae042efa39add5b8f55189c4cbd7372e5751415
+block generator: 7
+
+-------------------------------------------------------------------------------------
+
+Node ID:6
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 5845
+previous_hash: 0000409ef4b7af3e6907ad43939acb1ca804aa7bdfc98ed6dcf65e160027f0dd
+block generator: 5
+
+-------------------------------------------------------------------------------------
+
+Node ID:13
+-------------Incomplete transaction----------------:
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 19153
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 7
+
+index: 3
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 16600
+previous_hash: 000000725a6dc2cddcb5276edae042efa39add5b8f55189c4cbd7372e5751415
+block generator: 7
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 892
+previous_hash: 0000e62d29a59af5a3a16b04684834105dc177d834c95054ca8efb9c503b340f
+block generator: 13
+
+-------------------------------------------------------------------------------------
+
+Node ID:17
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:16
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 31613
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 16
+
+-------------------------------------------------------------------------------------
+
+Node ID:2
+-------------Incomplete transaction----------------:
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 19153
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 7
+
+index: 3
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 16600
+previous_hash: 000000725a6dc2cddcb5276edae042efa39add5b8f55189c4cbd7372e5751415
+block generator: 7
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 60514
+previous_hash: 0000e62d29a59af5a3a16b04684834105dc177d834c95054ca8efb9c503b340f
+block generator: 7
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 54
+previous_hash: 000019d87adee6e2feb3681f45be7b00a2a4b2d1c90c7f5db25ee95a1cb6c893
+block generator: 2
+
+-------------------------------------------------------------------------------------
+
+Node ID:18
+-------------Incomplete transaction----------------:
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 28038
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 9
+
+-------------------------------------------------------------------------------------
+
+Node ID:160
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 160, 'recipient': 116, 'amount': 4662, 'timestamp': 643}
+proof: 8543
+previous_hash: None
+block generator: 160
+
+index: 2
+{'sender': 160, 'recipient': 0, 'amount': 7711, 'timestamp': 6466}
+proof: 63967
+previous_hash: 00008808660b5fb5a6d3ab75d5c4ebe8afe44162a0c29d462894b135c04adb47
+block generator: 160
+
+-------------------------------------------------------------------------------------
+
+Node ID:116
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 116, 'recipient': 180, 'amount': 2375, 'timestamp': 6153}
+proof: 86974
+previous_hash: None
+block generator: 116
+
+-------------------------------------------------------------------------------------
+
+Node ID:210
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 210, 'recipient': 190, 'amount': 2358, 'timestamp': 977}
+proof: 306239
+previous_hash: None
+block generator: 210
+
+-------------------------------------------------------------------------------------
+
+Node ID:190
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:21
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:207
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 207, 'recipient': 52, 'amount': 9773, 'timestamp': 1339}
+proof: 46286
+previous_hash: None
+block generator: 207
+
+-------------------------------------------------------------------------------------
+
+Node ID:52
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:98
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 98, 'recipient': 64, 'amount': 3354, 'timestamp': 1880}
+proof: 27189
+previous_hash: None
+block generator: 98
+
+-------------------------------------------------------------------------------------
+
+Node ID:64
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:96
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 96, 'recipient': 11, 'amount': 6932, 'timestamp': 1880}
+proof: 41888
+previous_hash: None
+block generator: 96
+
+-------------------------------------------------------------------------------------
+
+Node ID:112
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 112, 'recipient': 179, 'amount': 4132, 'timestamp': 2042}
+proof: 142569
+previous_hash: None
+block generator: 112
+
+-------------------------------------------------------------------------------------
+
+Node ID:179
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:85
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 85, 'recipient': 22, 'amount': 4422, 'timestamp': 2121}
+proof: 80184
+previous_hash: None
+block generator: 85
+
+-------------------------------------------------------------------------------------
+
+Node ID:22
+-------------Incomplete transaction----------------:
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+-------------------------------------------------------------------------------------
+
+Node ID:33
+-------------Incomplete transaction----------------:
+{'sender': 33, 'recipient': 117, 'amount': 6276, 'timestamp': 2121}
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:117
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:86
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 86, 'recipient': 167, 'amount': 9440, 'timestamp': 2607}
+proof: 52027
+previous_hash: None
+block generator: 86
+
+-------------------------------------------------------------------------------------
+
+Node ID:167
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:146
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:46
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 46, 'recipient': 61, 'amount': 2738, 'timestamp': 2995}
+proof: 63546
+previous_hash: None
+block generator: 46
+
+-------------------------------------------------------------------------------------
+
+Node ID:61
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:130
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:44
+-------------Incomplete transaction----------------:
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 16599
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 8
+
+index: 3
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 18393
+previous_hash: 0000acf663b24ee59cfb1e87fe7169e3ba88dc621d81cad6b7d1e42b0f7f9e11
+block generator: 8
+
+-------------------------------------------------------------------------------------
+
+Node ID:186
+-------------Incomplete transaction----------------:
+{'sender': 186, 'recipient': 184, 'amount': 5488, 'timestamp': 8804}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 186, 'recipient': 179, 'amount': 8661, 'timestamp': 3131}
+proof: 13342
+previous_hash: None
+block generator: 186
+
+-------------------------------------------------------------------------------------
+
+Node ID:204
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:19
+-------------Incomplete transaction----------------:
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 93582
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 9
+
+index: 3
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 11059
+previous_hash: 000063c6b073c378e8c36ead90f789d9d83569a1474ee4a2aeecb85cf4a5796a
+block generator: 9
+
+index: 4
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+proof: 9025
+previous_hash: 00005efee88d202b6347b5e8f6c0fcc64f6cd8881664062c3f208fbb9826e736
+block generator: 19
+
+-------------------------------------------------------------------------------------
+
+Node ID:75
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 75, 'recipient': 185, 'amount': 7604, 'timestamp': 7946}
+proof: 31740
+previous_hash: None
+block generator: 75
+
+-------------------------------------------------------------------------------------
+
+Node ID:99
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:89
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+-------------------------------------------------------------------------------------
+
+Node ID:50
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:55
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 55, 'recipient': 19, 'amount': 1701, 'timestamp': 4675}
+proof: 27936
+previous_hash: None
+block generator: 55
+
+-------------------------------------------------------------------------------------
+
+Node ID:20
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 89, 'recipient': 50, 'amount': 5008, 'timestamp': 4108}
+proof: 3465
+previous_hash: None
+block generator: 89
+
+index: 2
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 19153
+previous_hash: 00009151c303a4a84637f4795a8c54004f3d2b42209aa9161c9650b17a1e5d80
+block generator: 7
+
+index: 3
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+{'sender': 9, 'recipient': 206, 'amount': 9278, 'timestamp': 5590}
+proof: 16600
+previous_hash: 000000725a6dc2cddcb5276edae042efa39add5b8f55189c4cbd7372e5751415
+block generator: 7
+
+index: 4
+{'sender': 13, 'recipient': 64, 'amount': 9988, 'timestamp': 7550}
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 9458
+previous_hash: 0000e62d29a59af5a3a16b04684834105dc177d834c95054ca8efb9c503b340f
+block generator: 20
+
+index: 5
+{'sender': 6, 'recipient': 204, 'amount': 951, 'timestamp': 3548}
+proof: 9530
+previous_hash: 000007b7258ae0b4b2c153299bc569782a68d9767b41cce91e01b416f514003a
+block generator: 20
+
+-------------------------------------------------------------------------------------
+
+Node ID:135
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 135, 'recipient': 148, 'amount': 7601, 'timestamp': 5128}
+proof: 75302
+previous_hash: None
+block generator: 135
+
+-------------------------------------------------------------------------------------
+
+Node ID:148
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:56
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 56, 'recipient': 71, 'amount': 8423, 'timestamp': 5334}
+proof: 13065
+previous_hash: None
+block generator: 56
+
+-------------------------------------------------------------------------------------
+
+Node ID:71
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:194
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 194, 'recipient': 46, 'amount': 6240, 'timestamp': 5337}
+proof: 62650
+previous_hash: None
+block generator: 194
+
+-------------------------------------------------------------------------------------
+
+Node ID:206
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:136
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 136, 'recipient': 158, 'amount': 2555, 'timestamp': 5990}
+proof: 74607
+previous_hash: None
+block generator: 136
+
+-------------------------------------------------------------------------------------
+
+Node ID:158
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:76
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:180
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:0
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:144
+-------------Incomplete transaction----------------:
+{'sender': 144, 'recipient': 129, 'amount': 5660, 'timestamp': 7025}
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:129
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:93
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:74
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:185
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:137
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 137, 'recipient': 88, 'amount': 4940, 'timestamp': 8298}
+proof: 26926
+previous_hash: None
+block generator: 137
+
+-------------------------------------------------------------------------------------
+
+Node ID:88
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:138
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+index: 1
+{'sender': 138, 'recipient': 48, 'amount': 7298, 'timestamp': 8314}
+proof: 26326
+previous_hash: None
+block generator: 138
+
+-------------------------------------------------------------------------------------
+
+Node ID:48
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:184
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:201
+-------------Incomplete transaction----------------:
+{'sender': 201, 'recipient': 209, 'amount': 4698, 'timestamp': 9193}
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:209
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
+Node ID:122
+-------------Incomplete transaction----------------:
+
+-------------Blockchain:---------------------------:
+-------------------------------------------------------------------------------------
+
