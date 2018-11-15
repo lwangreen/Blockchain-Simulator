@@ -129,9 +129,9 @@ def main():
 
     cnx = mysql.connector.connect(user='root', database='cambridge')
     cur = cnx.cursor(buffered=True)
-    end_time = 10000
-    #end_time = get_end_time(cur)
-    #print("endtime", end_time)
+    #end_time = 10000
+    end_time = get_end_time(cur)
+    print("endtime", end_time)
     f = open(os.getcwd()+"\\Created_data_trace\\transaction.txt", 'r')
 
     while current_time <= end_time:
@@ -169,24 +169,19 @@ def main():
                 node1 = get_node(c[1], nodes_list)
                 node2 = get_node(c[2], nodes_list)
 
-                node1.blockchain.resolve_conflicts(node2.blockchain)
-                node2.blockchain.resolve_conflicts(node1.blockchain)
+                node1.blockchain.resolve_conflicts_and_update_transactions(node2.blockchain)
+                node2.blockchain.resolve_conflicts_and_update_transactions(node1.blockchain)
                 #node1_resolve_conflict_thread = threading.Thread(target=node1.blockchain.resolve_conflicts, args=[node2.blockchain])
                 #node2_resolve_conflict_thread = threading.Thread(target=node2.blockchain.resolve_conflicts, args=[node1.blockchain])
                 #node1_resolve_conflict_thread.start()
                 #node2_resolve_conflict_thread.start()
 
-
-                node1.blockchain.broadcast_transactions(node2.blockchain)
-                node2.blockchain.broadcast_transactions(node1.blockchain)
-
-
         current_time += time_interval
         print(current_time, len(nodes_list))
 
     print("end")
-    write_into_file("testresult2018-11-15.txt", nodes_list)
+    write_into_file("testresult2018-11-15-2.txt", nodes_list)
+    #os.system(os.getcwd()+"\\gitpush.bat")
 
-    os.system(os.getcwd()+"\\gitpush.bat")
 if __name__ == "__main__":
     main()

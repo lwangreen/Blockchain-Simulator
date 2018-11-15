@@ -146,31 +146,39 @@ class Blockchain:
 
         return True
 
-    def resolve_conflicts(self, other_node):
+    def resolve_conflicts_and_update_transactions(self, other_node):
         """
         This is our Consensus Algorithm, it resolves conflicts
         by replacing our chain with the longest one in the network.
+
+        This function also removes the approved transactions and add new transactions into incomplete transaction list
         :return: <bool> True if our chain was replaced, False if not
         """
 
         # Check if the length is longer and the chain is valid
-        if len(other_node.chain) > len(self.chain) and self.valid_chain(other_node.chain):
+        if len(other_node.chain) > len(self.chain):  # and self.valid_chain(other_node.chain):
             self.stop_mining_thread()
             self.chain = other_node.chain.copy()
-            self.remove_approved_incomplete_transactions()
             self.create_unsolved_block(self.hash(self.chain[-1]))
+
+            if other_node.incomplete_transactions:
+                self.broadcast_transactions(other_node)
+
+            if self.incomplete_transactions:
+                for block in self.chain:
+                    self.remove_approved_incomplete_transactions(block)
+
             if self.incomplete_transactions:
                 self.start_mining_thread()
 
-    def remove_approved_incomplete_transactions(self):
-        for block in self.chain:
+    def remove_approved_incomplete_transactions(self, block):
+        if self.incomplete_transactions:
             for transaction in self.incomplete_transactions:
                 if transaction in block['transactions']:
                     self.incomplete_transactions.remove(transaction)
 
     def broadcast_transactions(self, other_node):
         if other_node.incomplete_transactions:
-            for block in self.chain:
-                for transaction in other_node.incomplete_transactions:
-                    if transaction not in self.incomplete_transactions and transaction not in block['transactions']:
-                        self.new_transaction(transaction)
+            for transaction in other_node.incomplete_transactions:
+                if transaction not in self.incomplete_transactions:
+                    self.new_transaction(transaction)
