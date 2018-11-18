@@ -1,7 +1,7 @@
 import hashlib
 import json
-import threading
-
+#import threading
+import multiprocessing as mp
 
 class Blockchain:
     def __init__(self, id):
@@ -15,7 +15,8 @@ class Blockchain:
 
     def start_mining_thread(self):
         self.FLAG_MINING = True
-        self.mining_thread = threading.Thread(target=self.proof_of_work)
+        #self.mining_thread = threading.Thread(target=self.proof_of_work)
+        self.mining_thread = mp.Process(target=self.proof_of_work)
         self.mining_thread.start()
 
     def stop_mining_thread(self):

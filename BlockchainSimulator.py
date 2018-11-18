@@ -1,8 +1,8 @@
-import threading
+import multiprocessing as mp
 import os
 import mysql.connector
 from Node import Node
-
+from time import time
 
 def is_node_contain(node_id, nodes_list):
     return any(node_id == node.id for node in nodes_list)
@@ -129,11 +129,11 @@ def main():
 
     cnx = mysql.connector.connect(user='root', database='cambridge')
     cur = cnx.cursor(buffered=True)
-    #end_time = 10000
+    #end_time = 100000
     end_time = get_end_time(cur)
     print("endtime", end_time)
     f = open(os.getcwd()+"\\Created_data_trace\\transaction.txt", 'r')
-
+    exec_start_time = time()
     while current_time <= end_time:
         if not current_contacts:
             current_contacts = retrieve_contact_from_data_trace(cur, current_time)
@@ -171,16 +171,20 @@ def main():
 
                 node1.blockchain.resolve_conflicts_and_update_transactions(node2.blockchain)
                 node2.blockchain.resolve_conflicts_and_update_transactions(node1.blockchain)
-                #node1_resolve_conflict_thread = threading.Thread(target=node1.blockchain.resolve_conflicts, args=[node2.blockchain])
-                #node2_resolve_conflict_thread = threading.Thread(target=node2.blockchain.resolve_conflicts, args=[node1.blockchain])
+                #node1_resolve_conflict_thread = mp.Process(target=node1.blockchain.resolve_conflicts_and_update_transactions, args=[node2.blockchain])
+                #node2_resolve_conflict_thread = mp.Process(target=node2.blockchain.resolve_conflicts_and_update_transactions, args=[node1.blockchain])
                 #node1_resolve_conflict_thread.start()
                 #node2_resolve_conflict_thread.start()
+                #node1_resolve_conflict_thread.join()
+                #node2_resolve_conflict_thread.join()
 
         current_time += time_interval
         print(current_time, len(nodes_list))
 
     print("end")
-    write_into_file("testresult2018-11-15-2.txt", nodes_list)
+    exec_end_time = time()
+    print("execution time", exec_end_time-exec_start_time)
+    #write_into_file("testresult-multiprocess-2018-11-16.txt", nodes_list)
     #os.system(os.getcwd()+"\\gitpush.bat")
 
 if __name__ == "__main__":
